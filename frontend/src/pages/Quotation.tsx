@@ -114,7 +114,8 @@ function App() {
         old_vehicle_details: formData.oldVehicleDetails || 'None'
       };
 
-      const response = await fetch(`https://sidhhivinayak-backend.vercel.app/api/quotation`, {
+      const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${API_BASE_URL}/api/quotation`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

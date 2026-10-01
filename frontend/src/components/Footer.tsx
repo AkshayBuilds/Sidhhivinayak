@@ -63,6 +63,7 @@ function Footer() {
                 { to: "/about", text: "About Us" },
                 { to: "/products", text: "Products" },
                 { to: "/offers", text: "Offers & Deals" },
+                { to: "/download-docs", text: "Download Bill & Insurance" },
                 { to: "/quotation", text: "Quotation" },
                 { to: "/contact", text: "Contact Us" }
               ].map((link, index) => (

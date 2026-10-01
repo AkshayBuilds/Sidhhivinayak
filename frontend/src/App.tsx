@@ -9,6 +9,7 @@ import BrandPage from './pages/BrandPage';
 import Offers from './pages/Offers';
 import Contact from './pages/Contact';
 import Quotation from './pages/Quotation';
+import DownloadDocs from './pages/DownloadDocs';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
             <Route path="/offers" element={<Offers />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/quotation" element={<Quotation />} />
+            <Route path="/download-docs" element={<DownloadDocs />} />
           </Routes>
         </main>
         <Footer />
